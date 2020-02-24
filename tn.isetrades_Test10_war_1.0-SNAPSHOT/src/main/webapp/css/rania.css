@@ -1,0 +1,35 @@
+/* 
+    Created on : May 25, 2018, 11:27:24 AM
+    Author     : Rania
+*/
+
+body{
+    font-size: 14px;
+}
+.rred{
+    color: #cc0000;
+}
+.rgreen{
+    color: #009999;
+}
+.rblack{
+    color: #003366;
+}
+.dark-logo1{
+     width: 20%;
+    height: auto;
+}
+.dark-logo2{
+     width: 40%;
+    height: auto;
+}
+.pie{
+    size:100%;
+}
+.Public{
+    background-color: grey;
+}
+.Private{
+    border-color: black;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test10?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">rania</property>
+    <property name="hibernate.connection.password">rania</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <mapping class="tn.isetrades.test10.entity.model.Flavor"/>
+    <mapping class="tn.isetrades.test10.entity.model.Role"/>
+    <mapping class="tn.isetrades.test10.entity.model.Member"/>
+    <mapping class="tn.isetrades.test10.entity.model.Server"/>
+    <mapping class="tn.isetrades.test10.entity.model.Image"/>
+    <mapping class="tn.isetrades.test10.entity.model.Course"/>
+  </session-factory>
+</hibernate-configuration>
